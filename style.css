@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 40px 20px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding: 40px 0px;
+}
+
+.my-foto {
+    width: 370px;
+}
+
+.about-me-conteiner {
+    padding: 110px 90px;
+}
+
+.contacts-conteiner {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*CONTACTS*/
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    }
+
+.contacts-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#666d78;
+    }
+
+.contacts-link-type{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 10px;
+    }
+
+/*TECH-SKILLS*/
+
+.Tech-skills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    }
+
+.Tech-skills-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.Tech-skilla-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+    }
+
+.Tech-skills-text{
+    color: #c5c8cc;
+}
+
+/*SOFT-SKILLS*/
+
+.Soft-skills-container{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Soft-skils-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.soft-skills-item{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+}
+
+.soft-skills-text{
+    color: #d2d4d7;
+}
+
+
+/* ABOUT ME*/
+
+.profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.info-conteiner{
+    margin-bottom: 65px;
+}
+
+.about-me-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.project-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.tech-name{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dots{
+    color:#bdbdbd;
+    font-weight: 100;
+}
+
+.project-item{
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.project-container{
+    margin-bottom: 55px;
+}
+
+.profession-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.profession-company{
+    color: #ff6b08;
+}
+
+.profession-time{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.profession-divider{
+    color: #000;
+}
+
+.professonal-duties{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.professional-duties-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.university{
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+   
+}
+
+.university-profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+/*li {
+    color:#e1e2e5;
+}
+
+.contacts-container{
+    background: sandybrown;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.Tech-skills-container{
+    background: tomato;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.Soft-skills-container{
+    background: #1e2939;
+    width: 400px;
+    padding: 40px;
+   
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.Tech-skills-title {
+    font-size: 30px;
+    font-weight: 400;
+    /*box-sizing: border-box;
+} 
+
+.Tech-skilla-item{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+*/
